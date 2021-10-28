@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+ 
+.float_clear{
+    clear: both;
+}
+
+main{
+    width: 900px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+.text_area{
+    padding: 20px;
+}
+ 
+.input_box{
+    width: 200px;
+    height: 30px;
+}
+
+.smallTitle_area{
+    display: flex;
+    align-items: center;
+    height: 54px;
+    width: 900px;
+    justify-content: space-between;
+}
+
+.smallTitle_area:hover{
+    cursor: pointer;
+}
+ 
+.smallTitle_delete_area{
+    background-image:url(./image/background-green.png);
+}
+ 
+ 
+.text_delete_area{
+    background-color: rgb(209, 255, 198);
+}
+ 
+.password_checkbox{
+    margin-left:110px;
+}

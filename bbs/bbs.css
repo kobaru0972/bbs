@@ -1,0 +1,123 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+}
+
+header{
+    width: 1024px;
+    background-color:rgba(148, 148, 148, 0.7);
+    margin-left:auto;
+    margin-right: auto;
+    border-top: double red 8px;
+}
+main{
+   width: 900px; 
+   margin-left:auto;
+   margin-right: auto;
+}
+h2{
+    margin: 5px;
+}
+
+.smallTitle_search_area{
+    background-image:url(./image/background-magenta.png);
+ 
+}
+ 
+.smallTitle_area{
+    display: flex;
+    align-items: center;
+    height: 54px;
+    width: 900px;
+    justify-content: space-between;
+}
+ 
+.botton_img{
+    padding: 20px;
+}
+.smallTitle{
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+}
+ 
+.text_search_area{
+    background-color: rgb(207, 195, 219);
+}
+
+.text_area{
+    padding: 20px;
+}
+.input_box{
+    width: 200px;
+    height: 30px;
+}
+
+.smallTitle_write_area{
+    background-image:url(./image/background-orange.png);
+}
+
+.text_write_area{
+    background-color: rgb(255, 211, 198);
+}
+
+.smallTitle_area:hover{
+    cursor: pointer;
+}
+
+.search_word{
+    font-weight: bold;
+    text-decoration: underline;
+}
+ 
+table,td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ 
+thead{
+    background-color: red;
+    color: white;
+}
+ 
+.cell_ID{
+    width: 70px;
+}
+ 
+.cell_day{
+    width: 220px;
+}
+ 
+.cell_name{
+    width: 150px;
+}
+ 
+.cell_subject{
+    width: 120px;
+}
+ 
+
+ 
+.cell_message{
+    width: 320px;
+}
+ 
+.cell_message_text{
+    text-align: start;
+}
+ 
+.nodata_text{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    line-height: 300%;
+}
+
+footer{
+    width: 1024px;
+    margin: auto;
+
+}
