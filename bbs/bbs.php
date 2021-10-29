@@ -133,8 +133,10 @@
             </article>
         </main>
         <footer>
-            <a href="#TOP">TOP</a>
-            <a href="./ADM.php">管理者ページ</a>
+            <div class="footer_box">
+                <a href="#TOP" class="top_link">TOP</a>
+                <a href="./ADM.php" class="ADM_link">管理者ページ</a>
+            </diV>
         </footer>      
     </body>
 

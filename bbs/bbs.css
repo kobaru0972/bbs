@@ -119,5 +119,20 @@ thead{
 footer{
     width: 1024px;
     margin: auto;
+    background-color: rgb(149, 204, 149);
 
+}
+
+.footer_box{
+    padding: 20px;
+    font-size: large;
+}
+.top_link{
+    margin-left: 80px;
+
+}
+
+.ADM_link{
+    float: right;
+    margin-right: 80px;
 }
