@@ -30,7 +30,7 @@
     </head>
     <body>
         <header id="TOP">
-            <h1>タイトル</h1>
+            <h1>掲示板</h1>
         </header>
         <main>
             <noscript>
