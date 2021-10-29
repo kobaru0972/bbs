@@ -1,5 +1,4 @@
 <?php
-
 if(isset($_POST['user']) == true && $_POST['user'] !=''){
     $user = $_POST['user'];
 }
@@ -20,4 +19,3 @@ else {
     header('location:./bbs.php');
    
 }
-

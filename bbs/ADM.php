@@ -1,5 +1,4 @@
 <?php
-	
 	session_start();
 	session_regenerate_id(true);
 	if(isset($_SESSION['login']) == false || $_SESSION['login'] != true){
@@ -22,7 +21,6 @@
                     <h3 class="smallTitle">記事の削除</h3>        
                 </div>
                 <diV class="text_delete_area text_area">
-
                     <p>次の項目を入力し、「削除」ボタンをクリックしてください。</p>
                     <form action="./bbs_delete.php" method="post">
                         <div>
@@ -37,9 +35,7 @@
                         <input type="submit" value="削除">
                     </form>
                 </div>
-                
             </article>
         </main>        
     </body>
-
 </html>
