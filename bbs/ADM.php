@@ -12,6 +12,7 @@
         <meta charset="UTF-8">
         <title>管理者ページ</title>
         <link href="ADM.css" rel="stylesheet" type="text/css">
+        <script src="ADM.js"></script>
     </head>
     <body>
         <main>

@@ -8,20 +8,19 @@ if ($password === "password") {
         require_once('./DBInfo.php');
         $pdo = new PDO(DBInfo::DSN, DBInfo::USER, DBInfo::PASSWORD);
 
-        $sql = 'DELETE FROM bbs WHERE id = ?';
+        $sql = 'DELETE FROM bbs2 WHERE id = ?';
         $statement = $pdo->prepare($sql);
         $statement->bindValue(1, $delete_ID);
         $pdo->beginTransaction();
         $statement->execute();
         $pdo->commit();
         $pdo = null;
-        header('location:./ADM.php');
+        header('location:./bbs.php');
     }
 
 }
 catch(PDOException $e){
     if(isset($pdo) == true && $pdo->inTransaction() == true){
     $pdo->rollBack();
-    }  
+    header('location:./ADM.php');}  
 }
-header('location:./ADM.php');
