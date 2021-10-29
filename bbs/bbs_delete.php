@@ -17,7 +17,6 @@ if ($password === "password") {
         $pdo = null;
         header('location:./bbs.php');
     }
-
 }
 catch(PDOException $e){
     if(isset($pdo) == true && $pdo->inTransaction() == true){
