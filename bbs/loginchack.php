@@ -17,7 +17,7 @@ if ($user == 'user' && $password == 'password') {
 }
 
 else {
-    header('location:./bbs.phpto');
+    header('location:./bbs.php');
    
 }
 
