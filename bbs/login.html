@@ -3,12 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <title>ログイン</title>
+        <link href="login.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="ADM.js"></script>
     </head>
     <body>
-        <form action="./loginchack.php" method="post">
-			ユーザ名：<input type="text" name="user" /><br/>
-			パスワード：<input type="password" name="password" /><br/>
-			<input type="submit" value="ログイン" />
-		</form>
+        <main>
+            <form action="./loginchack.php" method="post">
+                ユーザ名：<input type="text" name="user" class="input_box"><br/>
+                パスワード：<input type="password" class="input_box password_box" maxlength ="8" required pattern="^([0-9A-Za-z]{4,8})+$" title="4～8文字の半角英数字で入力してください" name ="password"><br/>
+                <p><label><input type="checkbox" class="password_checkbox">パスワードを表示する</label></p>
+                <input type="submit" value="ログイン">
+            </form>            
+        </main>
     </body>
 </html>
