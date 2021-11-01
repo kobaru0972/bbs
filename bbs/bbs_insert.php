@@ -5,6 +5,8 @@ if(isset($name,$subject,$message)){
     $message = str_replace(PHP_EOL, '<br/>',htmlspecialchars($_POST['message']));
     $data = date("Y-m-d H:i:s");
 
+
+
     try{
         require_once('./DBInfo.php');
         $pdo = new PDO(DBInfo::DSN, DBInfo::USER, DBInfo::PASSWORD);

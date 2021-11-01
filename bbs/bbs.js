@@ -8,6 +8,7 @@ $(function(){
         $(this).next().slideToggle(500);
         var img =$($(this).children("img")).attr('src');
         
+
         if (img=="./image/button-minus.png") {
 
             $(this).children("img").attr("src","./image/button-plus.png");
