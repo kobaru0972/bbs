@@ -23,7 +23,7 @@ h2{
     background-color: purple;
  
 }
- 
+
 .smallTitle_area{
     display: flex;
     align-items: center;
@@ -31,15 +31,16 @@ h2{
     width: 900px;
     justify-content: space-between;
 }
- 
+
 .botton_img{
     padding: 20px;
 }
+
 .smallTitle{
     color: rgb(255, 255, 255);
     padding-left: 30px;
 }
- 
+
 .text_search_area{
     background-color: rgb(207, 195, 219);
 }
@@ -47,6 +48,7 @@ h2{
 .text_area{
     padding: 20px;
 }
+
 .input_box{
     width: 200px;
     height: 30px;
@@ -68,7 +70,7 @@ h2{
     font-weight: bold;
     text-decoration: underline;
 }
- 
+
 table,td{
     border-collapse: collapse;
     border: 1px solid black;
@@ -76,20 +78,20 @@ table,td{
     padding-top: 5px;
     padding-bottom: 5px;
 }
- 
+
 thead{
     background-color: red;
     color: white;
 }
- 
+
 .cell_ID{
     width: 70px;
 }
- 
+
 .cell_day{
     width: 220px;
 }
- 
+
 .cell_name{
     width: 150px;
 }
@@ -97,17 +99,15 @@ thead{
 .cell_subject{
     width: 120px;
 }
- 
 
- 
 .cell_message{
     width: 320px;
 }
- 
+
 .cell_message_text{
     text-align: start;
 }
- 
+
 .nodata_text{
     color: red;
     text-align: center;
@@ -127,6 +127,7 @@ footer{
     padding: 20px;
     font-size: large;
 }
+
 .top_link{
     margin-left: 80px;
 

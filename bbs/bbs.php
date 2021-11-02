@@ -16,7 +16,6 @@
         $search_word_text ='なし'; 
         $sql = 'SELECT * FROM bbs2 ORDER BY id DESC';
     }
-    
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -24,7 +23,6 @@
         <meta charset="UTF-8">
         <title>掲示板</title>
         <link href="bbs.css" rel="stylesheet" type="text/css">
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="./bbs.js"></script>
     </head>
@@ -40,12 +38,10 @@
                 <h2>メニュー</h2>
                 <article>
                     <div class="smallTitle_search_area smallTitle_area">
-
                         <h3 class="smallTitle">記事の検索</h3>
                         <img src="./image/button-minus.png" class="botton_img">
                     </div>
                     <diV class="text_search_area text_area">
-
                         <p>次の項目を入力し、「検索」ボタンをクリックしてください。</p>
                         <form action="./bbs.php" method ="get">
                             <input type="text" class="input_box" name="search">をメッセージに含む記事<br>
@@ -121,14 +117,12 @@
                                 print('</tbody></table><br>');
                             }
                         }
-
                         catch(PDOException $e){
                             $code = $e->getCode();
                             $message =$e->getMessage();
                             print("{$code}/{$message}<br/>");
                         }
                     ?>
-    
                 </article>
             </article>
         </main>
@@ -139,5 +133,4 @@
             </diV>
         </footer>      
     </body>
-
 </html>

@@ -6,6 +6,5 @@ $(function(){
         else{
             $(".password_box").attr("type","password");
         }
-
     });
 });

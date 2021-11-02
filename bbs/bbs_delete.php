@@ -2,7 +2,6 @@
 $password = $_POST['password'];
 try{
 if ($password === "password") {
-    
         $delete_ID =$_POST['delete_ID'];
 
         require_once('./DBInfo.php');
@@ -17,7 +16,6 @@ if ($password === "password") {
         $pdo = null;
         header('location:./bbs.php');
     }
-
 }
 catch(PDOException $e){
     if(isset($pdo) == true && $pdo->inTransaction() == true){

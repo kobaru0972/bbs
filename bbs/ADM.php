@@ -1,5 +1,4 @@
 <?php
-	
 	session_start();
 	session_regenerate_id(true);
 	if(isset($_SESSION['login']) == false || $_SESSION['login'] != true){
@@ -37,9 +36,7 @@
                         <input type="submit" value="削除">
                     </form>
                 </div>
-                
             </article>
         </main>        
     </body>
-
 </html>
