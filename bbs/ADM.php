@@ -25,13 +25,13 @@
 
                     <p>次の項目を入力し、「削除」ボタンをクリックしてください。</p>
                     <form action="./bbs_delete.php" method="post">
-                        <div>
-                            <p class="float_left">記事のID&emsp;&emsp;&emsp;</p>
-                            <input type="text" class="input_box" required pattern="^[0-9]+$" title="半角数字で入力してください" name="delete_ID">
+                        <div class="input_area">
+                            <p class="float_left">記事のID</p>
+                            <input type="text" class="input_box float_right" required pattern="^[0-9]+$" title="半角数字で入力してください" name="delete_ID">
                         </div>
-                        <div>
+                        <div class="input_area">
                             <p class="float_left">管理パスワード</p>
-                            <input type="password" class="input_box password_box" maxlength ="8" required pattern="^([0-9A-Za-z]{4,8})+$" title="4～8文字の半角英数字で入力してください" name ="password">
+                            <input type="password" class="input_box password_box float_right" maxlength ="8" required pattern="^([0-9A-Za-z]{4,8})+$" title="4～8文字の半角英数字で入力してください" name ="password">
                             <p><label><input type="checkbox" class="password_checkbox">パスワードを表示する</label></p>
                         </div>
                         <input type="submit" value="削除">

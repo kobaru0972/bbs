@@ -19,7 +19,6 @@ main{
     margin-right: auto;
 }
 
-
 .text_area{
     padding: 20px;
 }
@@ -44,12 +43,21 @@ main{
 .smallTitle_delete_area{
     background-image:url(./image/background-green.png);
 }
- 
- 
+
+.smallTitle{
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
 .text_delete_area{
     background-color: rgb(209, 255, 198);
 }
- 
+
+.input_area{
+    width: 320px;
+    line-height: 30px;
+}
+
 .password_checkbox{
     margin-left:110px;
 }
