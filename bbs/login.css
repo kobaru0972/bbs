@@ -2,6 +2,8 @@ main{
     width: 900px;
     margin-left:auto;
     margin-right: auto;
+    background-color:aquamarine;
+    padding: 10px;
 }
 
 .input_box{
