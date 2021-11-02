@@ -20,7 +20,7 @@ h2{
 }
 
 .smallTitle_search_area{
-    background-image:url(./image/background-magenta.png);
+    background-color: purple;
  
 }
  
@@ -53,7 +53,7 @@ h2{
 }
 
 .smallTitle_write_area{
-    background-image:url(./image/background-orange.png);
+    background-color: orange;
 }
 
 .text_write_area{
