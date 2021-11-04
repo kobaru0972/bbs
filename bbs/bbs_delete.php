@@ -14,8 +14,8 @@ if ($password === "password") {
         $statement->execute();
         $pdo->commit();
         $pdo = null;
-        header('location:./bbs.php');
     }
+    header('location:./bbs.php');
 }
 catch(PDOException $e){
     if(isset($pdo) == true && $pdo->inTransaction() == true){
