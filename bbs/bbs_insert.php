@@ -1,5 +1,5 @@
 <?php
-if(isset($name,$subject,$message)){
+if(isset($_POST['name'],$_POST['subject'],$_POST['message'])){
     $name = htmlspecialchars($_POST['name']);
     $subject = htmlspecialchars($_POST['subject']);
     $message = str_replace(PHP_EOL, '<br/>',htmlspecialchars($_POST['message']));
