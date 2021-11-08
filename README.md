@@ -1,7 +1,7 @@
 # 掲示板
 検索機能と管理者による削除機能がある掲示板です
 
-![bbs](https://user-images.githubusercontent.com/92970448/140259348-fe546228-def4-4117-885e-42aae996586e.PNG)
+![bbs](https://user-images.githubusercontent.com/92970448/140682847-f456e648-8753-4a1d-8f08-dd55d78783d1.PNG)
 
 # リンク
 https://matchbox.work/yuudai_ehonnomori_579
