@@ -31,7 +31,9 @@ https://matchbox.work/yuudai_ehonnomori_579
 * 記事の書き込み
     1. 新規記事の書き込みエリアをクリックする
     2. 展開された入力フォームのお名前、件名、メッセージ欄すべてに入力する
+   ![image](https://user-images.githubusercontent.com/92970448/140683401-419be056-f6cb-4afc-88ee-65153803d0db.png) 
     3. 「書き込む」ボタンをクリックする
+   ![wright02](https://user-images.githubusercontent.com/92970448/140683621-33467cd6-db1e-49d7-baeb-9c805b4938e4.PNG)
 * 記事の削除
     1. 画面右下の「管理者ページ」のリンクをクリックする
     2. ユーザー名とパスワードを入力し、「ログイン」ボタンをクリックする
