@@ -37,7 +37,8 @@ https://matchbox.work/yuudai_ehonnomori_579
 * 記事の削除
     1. 画面右下の「管理者ページ」のリンクをクリックする
     2. ユーザー名とパスワードを入力し、「ログイン」ボタンをクリックする
+    ![login](https://user-images.githubusercontent.com/92970448/140683997-24254599-bd9d-42cd-819a-7e352785fab0.PNG)
     3. 削除する記事のIDとパスワードを入力し、「削除」ボタンをクリックする
-
+    ![ADM](https://user-images.githubusercontent.com/92970448/140684135-29475ce7-7147-4d4d-a629-972972138b2e.PNG)
  # 改善点
  * 記事の削除前に確認システムを導入する
