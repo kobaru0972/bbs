@@ -26,7 +26,7 @@ https://matchbox.work/yuudai_ehonnomori_579
     ![bbs](https://user-images.githubusercontent.com/92970448/140683167-5f9b0317-7353-41a4-bfbd-b547ef757d19.PNG)
 
     3. 「検索」ボタンをクリックする
-    ![serch](https://user-images.githubusercontent.com/92970448/140683027-ba39027f-e0ac-4cc9-b8c4-2177a9450ce5.PNG)
+    ![bbs](https://user-images.githubusercontent.com/92970448/140683027-ba39027f-e0ac-4cc9-b8c4-2177a9450ce5.PNG)
 
 * 記事の書き込み
     1. 新規記事の書き込みエリアをクリックする
