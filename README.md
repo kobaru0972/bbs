@@ -3,9 +3,6 @@
 
 ![bbs](https://user-images.githubusercontent.com/92970448/141229444-0a6cfb76-a188-4aa6-94e6-250de1229c1c.PNG)
 
-# リンク
-https://matchbox.work/yuudai_ehonnomori_579
-
 # 使用技術
 * javascript
 * php
@@ -18,6 +15,8 @@ https://matchbox.work/yuudai_ehonnomori_579
 * 検索機能
 * 管理者ページへのログイン機能
 * 管理者ページからの削除機能
+
+# ポイント
 
 # 使用方法
 * 記事の検索
