@@ -1,7 +1,7 @@
 # 掲示板
 検索機能と管理者による削除機能がある掲示板です
 
-![bbs](https://user-images.githubusercontent.com/92970448/140682847-f456e648-8753-4a1d-8f08-dd55d78783d1.PNG)
+![bbs](https://user-images.githubusercontent.com/92970448/141229444-0a6cfb76-a188-4aa6-94e6-250de1229c1c.PNG)
 
 # リンク
 https://matchbox.work/yuudai_ehonnomori_579
@@ -23,17 +23,20 @@ https://matchbox.work/yuudai_ehonnomori_579
 * 記事の検索
     1. 記事の検索エリアをクリックする
     2. 展開された入力フォームに検索した文字列を入力する
-    ![bbs](https://user-images.githubusercontent.com/92970448/140683167-5f9b0317-7353-41a4-bfbd-b547ef757d19.PNG)
+    ![serch01](https://user-images.githubusercontent.com/92970448/141229558-26f7acaa-33a5-4868-8c6b-68cf0edc69a1.PNG)
 
     3. 「検索」ボタンをクリックする
-    ![bbs](https://user-images.githubusercontent.com/92970448/140683027-ba39027f-e0ac-4cc9-b8c4-2177a9450ce5.PNG)
+    ![serch02](https://user-images.githubusercontent.com/92970448/141229580-fce4549a-433f-4f70-bbb0-85dc060a5f76.PNG)
+
 
 * 記事の書き込み
     1. 新規記事の書き込みエリアをクリックする
     2. 展開された入力フォームのお名前、件名、メッセージ欄すべてに入力する
-   ![image](https://user-images.githubusercontent.com/92970448/140683401-419be056-f6cb-4afc-88ee-65153803d0db.png) 
+    ![wright01](https://user-images.githubusercontent.com/92970448/141229631-df171259-000e-4663-be49-90adc08a3289.PNG)
+
     3. 「書き込む」ボタンをクリックする
-   ![wright02](https://user-images.githubusercontent.com/92970448/140683621-33467cd6-db1e-49d7-baeb-9c805b4938e4.PNG)
+    ![wright02](https://user-images.githubusercontent.com/92970448/141229661-a851ecc4-ce2e-4608-8167-09ae81c8a635.PNG)
+
 * 記事の削除
     1. 画面右下の「管理者ページ」のリンクをクリックする
     2. ユーザー名とパスワードを入力し、「ログイン」ボタンをクリックする
