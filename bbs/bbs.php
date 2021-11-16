@@ -8,7 +8,7 @@
     
     if($search != ''){
         $search_sanitize =htmlspecialchars($search);
-        $search_addcslashes =  addcslashes ( $search , '%' );
+        $search_addcslashes =  addcslashes ( $search_sanitize , '%_' );
         $search_word_text = "<br>メッセージに <spon class=\"search_word\">{$search_sanitize}</spon> を含む記事";
         $sql = "SELECT * FROM bbs2 WHERE message LIKE '%$search_addcslashes%' ORDER BY id DESC";
     }
