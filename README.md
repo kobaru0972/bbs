@@ -42,4 +42,4 @@
  * 記事の削除前に確認システムを導入する
 
 
-![test](https://gyazo.com/16a8cdb7898fecfb000bc9d75be437a2)
+https://user-images.githubusercontent.com/92970448/143802939-7f4ad084-ba1c-4c86-91f2-e392ce756b34.mp4
