@@ -19,6 +19,7 @@
 * 管理者ページへのログイン機能
 ![login](https://user-images.githubusercontent.com/92970448/143795962-329b5a90-c7da-4c86-934e-f8a21a02061d.gif)
 * 管理者ページからの削除機能
+![delete](https://user-images.githubusercontent.com/92970448/143798478-63f1a686-c81b-41d6-ab10-e247ff982641.gif)
 
 # ポイント
 * SQLインジェクション対策
