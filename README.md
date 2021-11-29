@@ -13,8 +13,8 @@
 * 見出しの折りたたみと展開機能
     ![fold](https://user-images.githubusercontent.com/92970448/142793635-abc9dcde-94da-4f32-96c2-ee2fb15c271a.gif)
 * 投稿機能
-    ![serch](https://user-images.githubusercontent.com/92970448/142565405-df46d3f2-3c8c-4380-96a4-f58126c4c4fb.gif)
 * 検索機能
+    ![serch](https://user-images.githubusercontent.com/92970448/142565405-df46d3f2-3c8c-4380-96a4-f58126c4c4fb.gif)
 * 管理者ページへのログイン機能
 * 管理者ページからの削除機能
 
