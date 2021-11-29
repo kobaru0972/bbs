@@ -42,4 +42,4 @@
  * 記事の削除前に確認システムを導入する
 
 
-https://gyazo.com/16a8cdb7898fecfb000bc9d75be437a2
+![test](https://gyazo.com/16a8cdb7898fecfb000bc9d75be437a2)
