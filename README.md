@@ -42,9 +42,10 @@
 * 検索機能で記事の絞り込みが可能。
     ![serch](https://gyazo.com/11eca04d17eb0505fb0298c213ba9275.gif)
 * 管理者ページの削除機能で不適切な記事をIDとPASSを知っている人だけが削除できるようにした。
+    ![delate](https://gyazo.com/f9fd2ef275632e0b6ced8082aee83717.gif)
 * SQLインジェクション対策
 * 入力フォームの入力補助機能
-    ![wright03](https://user-images.githubusercontent.com/92970448/142791659-9e4ff777-9f3c-4241-99a0-ea807709731a.png)
+    ![wright](https://gyazo.com/465d212e5cc7875de53499ca80a0a2f1.gif)
 * 検索フォームに % と _ を入力したしたときにSQLコマンドが正常に機能するように自動的にバックスラッシュでクォートでする機能
 
  # 改善点
